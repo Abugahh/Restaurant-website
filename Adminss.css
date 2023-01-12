@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f5f9;
+   font-size: large;
+}
+
+
+
+table{
+ width: 20%;
+ margin: 10px auto;
+ border-collapse: collapse;
+ text-align: left;
+ background-color: D4B2AB;
+
+}
+
+tr {
+  border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+  border: none;
+  height: 30px;
+  padding: 2px;
+}
+
+
+form {
+  width: 45%;
+  margin: 50px auto;
+  text-align: left;
+  padding: 20px; 
+  border: 1px solid #bbbbbb; 
+  border-radius: 5px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #2E8B57;
+  color: white;
+  border-radius: 3px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+.msg {
+  margin: 30px auto; 
+  padding: 10px; 
+  border-radius: 5px; 
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+
+
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #4b4276;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+@media (max-height: 500px){
+  .social_media{
+    display: none !important;
+  }
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 15%;
+  height: 15%;
+  color: white;
+  margin: 20px;
+  border: 2px solid white;
+  box-shadow: 10px 8px 15px gray;
+  background-color: rgb(0, 0, 0,0.8);
+  transition: .3s ease-in;
+}
+
+
+.card-content{
+  padding: 10px;
+}
+
+
+.cards{
+  width: 75%;
+  height: 80%;
+  color: white;
+  margin: 20px;
+  border: 2px solid white;
+  box-shadow: 10px 8px 15px gray;
+  background-color: rgb(0, 0, 0,0.8);
+  transition: .3s ease-in;
+}
+
+.cardss{
+  width: 15%;
+  height: 20%;
+  color: white;
+  margin: 20px;
+  border: 2px solid white;
+  box-shadow: 10px 8px 15px gray;
+  background-color:rgba(0,0,255,0.3);
+  transition: .3s ease-in;
+}
+
+
+
+
+.cards-content{
+  
+  font-size: large;
+}
+
+
+.Sessions{
+  position: absolute;
+  right: 50px;  
+ 
+
+
+
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.checkout{
+  position: absolute;
+  right: 50px;  
+
+}

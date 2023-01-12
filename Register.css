@@ -1,0 +1,97 @@
+body{
+
+margin:0;
+padding: 0;
+background: url(drink.jpg);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+
+}
+
+.form-area {
+
+  width: 355px;
+  height: 498px;
+  background:  rgba(0, 0, 0, 0.5);  
+  color: #9d9d9d;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+
+}
+
+.form-area p{
+
+margin: 0;
+padding: 0;
+font-weight: bold;
+color:  #ffffff ;
+
+}
+
+.form-area input{
+    width: 94%;
+    margin-bottom: 20px;
+   
+    border: none;
+    border-radius: 40px;
+}
+.form-area input[type=text],
+.form-area input[type=email],
+.form-area input[type=password]{
+
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 18px;
+    color: #ffffff;
+    display: 16px;
+
+}
+::placeholder{
+
+    color: silver;
+}
+
+.form-area h4{
+
+margin: 0;
+padding: 0 0 10px;
+font-weight: bold;
+color: #FFDEAD;
+
+}
+
+.form-area h6{
+
+margin: 0;
+padding: 0 0 10px;
+font-weight: bold;
+ 
+}
+.form-area a{
+    color:#FFDEAD ;
+    
+    font-weight: bold;
+}
+
+.form-area button{
+    border: none;
+    height: 30px;
+    width: 90%;
+    outline: none;
+    
+    font-size: 15px;
+    background-color: #FFDEAD;
+    cursor: pointer;
+    border-radius: 20px;
+    float: none;
+}
+
+.form-area button:hover{
+    background-color: silver   ;
+}
